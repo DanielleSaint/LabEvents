@@ -8,31 +8,29 @@
 <body>
     <section class="todo-container">
         <h2>My list To-Do</h2>
-        <!-- Formulario para agregar tareas -->
-        <form id="form-tarea">
-          <input type="text" id="nombreTarea" placeholder="Escribe el título" required>
-          <textarea name="tarea" id="descripcion" placeholder="Escribe tu tarea" required></textarea>
-          <select id="categoriaTarea" required>
-            <option value="urgente">🔴 Urgente</option>
-            <option value="pendiente">🟣 Pendiente</option>
-            <option value="progreso">🟡 En Progreso</option>
-            <option value="completado">🟢 Completada</option>
-          </select>
-          <button type="submit">Agregar Tarea</button>
-        </form>
+
+        <input type="text" id="nombreTarea" placeholder="Escribe el título" required>
+        <textarea name="tarea" id="descripcion" placeholder="Escribe tu tarea" required></textarea>
+        <select id="categoriaTarea" required>
+        <option value="urgente">Urgente</option>
+        <option value="pendiente">Pendiente</option>
+        <option value="progreso">En Progreso</option>
+        <option value="completado">Completada</option>
+        </select>
+        <button type="submit">Agregar Tarea</button>
     
         <!-- Secciones de tareas -->
         <div class="listaCategoria" id="urgente">
-          <h3>🔴 Urgentes</h3>
+          <h3>Urgentes</h3>
         </div>
         <div class="listaCategoria" id="pendiente">
-          <h3>🟣 Pendientes</h3>
+          <h3>Pendientes</h3>
         </div>
         <div class="listaCategoria" id="progreso">
-          <h3>🟡 En Progreso</h3>
+          <h3>En Progreso</h3>
         </div>
         <div class="listaCategoria" id="completado">
-          <h3>🟢 Completadas</h3>
+          <h3>Completadas</h3>
         </div>
     </section>
 

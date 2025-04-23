@@ -13,19 +13,5 @@ formulario.addEventListener('submit', function (e) {
     <h3>${titulo}</h3>
     <p>${descripcionTarea}</p>
     `;
-    if (categoria === document.getElementById('urgente')) {
-        document.getElementById('urgente').appendChild(nuevaTarea);
-    }
-    else if (categoria === document.getElementById('pendiente')){
-        document.getElementById('pendiente').appendChild(nuevaTarea);
-    }
-    else if (categoria === document.getElementById('progreso')){
-        document.getElementById('progreso').appendChild(nuevaTarea);
-    }
-    else{
-        document.getElementById('completado').appendChild(nuevaTarea);
-    } 
-    
-    //limpio el formulario
-    formulario.reset();
+
 })
