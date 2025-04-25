@@ -19,7 +19,7 @@ botonAgregar.addEventListener('click', function (e) {
                 <h2>${titulo}</h2>
                 <p>${descripcionTarea}</p>
             </div>
-            <button type=submit id="eliminar">Eliminar</button>
+            <button type=submit id="eliminar">Borrar</button>
         </div>
     `;
     //agregar nueva lista al listado
